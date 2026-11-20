@@ -1,0 +1,22 @@
+# Python & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+.conda/
+
+# Jupyter / VS Code
+.ipynb_checkpoints/
+.vscode/
+
+# Large raw / processed data files (keep SRAM & processed data local, document access in README)
+data/raw/*.csv
+data/processed/*.csv
+*.csv
+*.xlsx
+
+# Optional: ignore large binary media if needed, or keep small charts/HTML maps
+# outputs/figures/*.html
